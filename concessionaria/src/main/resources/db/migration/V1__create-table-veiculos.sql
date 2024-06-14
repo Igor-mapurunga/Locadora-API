@@ -1,4 +1,4 @@
-CREATE TABLE locadora3 (
+CREATE TABLE veiculos (
     id BIGINT NOT NULL AUTO_INCREMENT,
     marca VARCHAR(255) NOT NULL,
     modelo VARCHAR(255) NOT NULL,
@@ -6,5 +6,5 @@ CREATE TABLE locadora3 (
     cor VARCHAR(50),
     combustivel VARCHAR(50),
     numeroDePortas INT,
-    PRIMARY KEY (id)
+    primary key (id)
 );
